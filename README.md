@@ -25,6 +25,7 @@ complete Guide to Install Frappe/ERPNext in Ubuntu 22.04 LTS
 
 
 ### STEP 0 Setup User in Root
+    useradd <truser_name>
     echo $USER
     su root
     nano /etc/sudoers
